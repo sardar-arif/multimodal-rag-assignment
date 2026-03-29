@@ -31,9 +31,9 @@ The implementation of a Multimodal RAG system will transform the owner’s manua
 The following stack was selected to meet the project's requirements for modularity, multimodal processing, and professional API design:
 
 - **Parser: PyMuPDF + Unstructured**: Selected for its ability to extract text, tables, and images as distinct chunks. Unstructured provides robust layout analysis to distinguish between headers, body text, and embedded diagrams [cite: 35, 57].
-- **Vector Store: FAISS (Facebook AI Similarity Search)**: Chosen for its high-performance similarity search capabilities, allowing for efficient retrieval of technical segments from the vector index [cite: 79].
-- **LLM: GPT-4o**: Utilized as the primary reasoning engine due to its superior performance in grounding and following complex instructions without hallucinations.
-- **VLM (Vision Language Model): GPT-4o-vision**: Critical for Rule 2; used to generate text summaries for every extracted image (icons, diagrams, tables), ensuring that visual information is embedded and searchable [cite: 35].
+- **Vector Store: FAISS**: Chosen for its high-performance similarity search capabilities, allowing for efficient retrieval of technical segments from the vector index [cite: 79].
+- **Embeddings: SentenceTransformers (`all-MiniLM-L6-v2`)**: Running locally on your machine for zero-cost, high-speed vectorization.
+- **LLM & VLM: Google Gemini 1.5 Flash**: Utilized as the primary reasoning and vision engine. It offers a generous free tier for multimodal processing, ensuring grounded answers without cost [cite: 35].
 - **Framework: FastAPI**: Implementation of the API layer to provide a high-performance, asynchronous interface with automatic Swagger documentation [cite: 35].
 
 ---
