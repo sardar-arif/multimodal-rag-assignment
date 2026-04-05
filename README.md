@@ -164,22 +164,22 @@ Provides interactive Swagger UI for testing the endpoints via the browser.
 All required visual proofs of the multimodal architecture's outputs are securely embedded below:
 
 ### Swagger UI
-![Swagger UI](screenshots/swagger_ui.png)
+![Swagger UI](screenshots/swagger_ui.PNG)
 
 ### Successful Ingestion
-![Successful Ingestion](screenshots/post_ingest.png)
+![Successful Ingestion](screenshots/post_ingest.PNG)
 
 ### Text Query Result
-![Text Query](screenshots/query_text.png)
+![Text Query](screenshots/query_text.PNG)
 
 ### Table Query Result
-![Table Query](screenshots/query_table.png)
+![Table Query](screenshots/query_table.PNG)
 
 ### Image Query Result
-![Image Query](screenshots/query_image.png)
+![Image Query](screenshots/query_image.PNG)
 
 ### Health Endpoint
-![Health Check](screenshots/get_health.png)
+![Health Check](screenshots/get_health.PNG)
 
 ---
 
