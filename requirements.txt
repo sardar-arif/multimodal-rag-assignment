@@ -8,4 +8,5 @@ sentence-transformers
 faiss-cpu
 google-generativeai
 python-multipart
+Pillow
 # Add other dependencies as needed later
