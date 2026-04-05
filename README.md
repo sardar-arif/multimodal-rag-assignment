@@ -110,7 +110,8 @@ Returns system status, index size, and uptime.
 ```json
 {
   "status": "healthy",
-  "indexed_documents": 417,
+  "total_documents": 1,
+  "total_chunks": 417,
   "index_dimension": 384,
   "uptime_seconds": 3600
 }
