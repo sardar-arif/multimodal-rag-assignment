@@ -16,7 +16,7 @@ class Settings(BaseSettings):
     
     # Model Config
     embedding_model_name: str = "all-MiniLM-L6-v2"
-    llm_model_name: str = "gemini-1.5-flash"
+    llm_model_name: str = "gemini-2.5-flash"
     
     model_config = SettingsConfigDict(
         env_file=".env",
